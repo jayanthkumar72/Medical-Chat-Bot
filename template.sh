@@ -3,6 +3,7 @@
 # creating Directorys
 mkdir -p src
 mkdir -p research
+mkdir -p diagrams
 #  Creating Files 
 touch src/__init__.py
 touch src/helper.py
@@ -11,6 +12,8 @@ touch .env
 touch setup.py
 touch research/trials.ipynb
 touch requirements.txt
+cp Medical_Chat_bot.drawio diagrams/Medical_Chat_bot.drawio
+
 
 # Echo linux comand is used to give the message 
 Echo "Directory and files created successfully !."
